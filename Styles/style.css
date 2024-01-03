@@ -1,3 +1,33 @@
-h1{
-    color: red;
+
+.Hero{
+    background-image: url(../Image/Friend.jpg.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.Hero h1{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 40px;
+    letter-spacing: 50px;
+
+}
+
+.Medul *{
+    
+    /*width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;*/
+
+    margin: 60px auto;
+    background-color: aqua;
+    padding: 60px;
+
 }
