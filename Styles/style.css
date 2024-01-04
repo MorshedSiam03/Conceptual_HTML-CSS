@@ -1,33 +1,40 @@
-
-.Hero{
-    background-image: url(../Image/Friend.jpg.jpg);
-    background-size: cover;
-    background-position: top;
-    height: 100vh;
+header {
+    background-color: black;
+    margin: auto;
+    padding: 16px;
 }
 
-.Hero h1{
-    color: azure;
-    font-size: 100px;
-    text-align: center;
-    margin-top: 0;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    word-spacing: 40px;
-    letter-spacing: 50px;
-
+header label1{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-right: 900px;
+    position: relative;
+    font-size: 24px;
+}
+header label{
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-right: 20px;
+    font-size: 18px;
 }
 
-.Medul *{
-    
-    /*width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-    margin-bottom: 10px;*/
-
-    margin: 60px auto;
-    background-color: aqua;
-    padding: 60px;
-
+header label5{
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-left: 50px;
+    font-size: 18px;
 }
+
+.Cover_Display{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Cover_Display img{
+    min-width: 300px;
+}
+
